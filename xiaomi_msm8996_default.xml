@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <!-- Remote names -->
+  <remote name="gb" fetch="https://github.com/"/>
+
+  <!-- Devices sources -->
+  <project path="device/xiaomi/natrium" name="LineageOS/android_device_xiaomi_natrium" revision="cm-14.1" remote="gb"/>
+  <project path="device/xiaomi/capricorn" name="LineageOS/android_device_xiaomi_capricorn" revision="cm-14.1" remote="gb"/>
+  <project path="device/xiaomi/gemini" name="LineageOS/android_device_xiaomi_gemini" revision="cm-14.1" remote="gb"/>
+  <project path="device/xiaomi/lithium" name="LineageOS/android_device_xiaomi_lithium" revision="cm-14.1" remote="gb"/>
+  <project path="device/xiaomi/scorpio" name="LineageOS/android_device_xiaomi_scorpio" revision="cm-14.1" remote="gb"/>
+
+  <!-- Common Project -->
+  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" revision="cm-14.1" remote="gb"/>
+  <project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" revision="cm-14.1" remote="gb"/>
+  <project path="device/xiaomi/msm8996-common" name="LineageOS/android_device_xiaomi_msm8996-common" revision="cm-14.1" remote="gb"/>
+
+  <!-- TWRP -->
+  <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-9.0" remote="gb" />
+
+</manifest>
