@@ -1,4 +1,4 @@
-Manifest for Android Oreo / LineageOS 15.1
+Manifest for Android Pie / LineageOS 16
 ====================================
 Project Mi5|Gemini / Project Mi5S|Capricorn / Project Mi5S Plus|Natrium / Project Mi Mix|Lithium / Project Mi Note2|Scorpio
 
@@ -8,7 +8,7 @@ Automatic Way:
 
 script to download manifests, sync repo and build:
 
-    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/lineage-15.1/build.sh
+    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/lineage-16.0/build.sh
 
 To use:
 
@@ -18,15 +18,15 @@ To use:
 
 Manual Way:
 
-To initialize LineageOS 15.1 Repo:
+To initialize LineageOS 16 Repo:
 
-    repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+    repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 
 ---
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/lineage-15.1/xiaomi_msm8996_default.xml
+    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/lineage-16.0/xiaomi_msm8996_default.xml
 
 ---
 

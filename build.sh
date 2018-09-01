@@ -1,10 +1,10 @@
 #!/bin/bash
 # Generic Variables
-_android="8.1.0"
-_android_version="Oreo"
+_android="9.0.0"
+_android_version="Pie"
 _android_java="8"
-_custom_android="lineage-15.1"
-_custom_android_version="LineageOS-15.1"
+_custom_android="lineage-16.0"
+_custom_android_version="LineageOS-16.0"
 _github_custom_android_place="LineageOS"
 _github_device_place="JonasCardoso"
 # Make loop for usage of 'break' to recursive exit
