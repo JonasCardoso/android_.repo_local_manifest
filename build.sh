@@ -1,4 +1,6 @@
 #!/bin/bash
+# New Live/Menu by Caio Oliveira aka Caio99BR <caiooliveirafarias0@gmail.com>
+# Support for msm8996 by JonasCardoso aka JonasCardoso <jonascard60@gmail.com>
 # Generic Variables
 _android="9.0.0"
 _android_version="Pie"
