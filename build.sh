@@ -213,8 +213,6 @@ do
 	echo "  | Initializing the environment"
 	_if_fail_break "source build/envsetup.sh"
 
-	export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
-
 	# Another device choice
 	echo "  |"
 	echo "  | For what device you want to build:"

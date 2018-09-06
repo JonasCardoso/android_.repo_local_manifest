@@ -42,12 +42,6 @@ Initialize the environment:
 
 ---
 
-If Jack run out of memory:
-
-    export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
-
----
-
 To build ROM or TWRP for Xiaomi Mi5:
 
     brunch gemini
