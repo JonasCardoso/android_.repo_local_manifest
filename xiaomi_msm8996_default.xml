@@ -18,6 +18,6 @@
   <project path="device/xiaomi/msm8996-common" name="LineageOS/android_device_xiaomi_msm8996-common" revision="lineage-15.1" remote="gb"/>
 
   <!-- TWRP -->
-  <project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-9.0" remote="gb" />
+  <!--<project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-9.0" remote="gb">-->
 
 </manifest>
