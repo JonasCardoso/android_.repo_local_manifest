@@ -32,7 +32,7 @@ To initialize Manifest for all devices:
 
 Sync the repo:
 
-    repo sync -c --force-sync
+    repo sync -c -jx --force-sync --no-clone-bundle --no-tags
 
 ---
 
