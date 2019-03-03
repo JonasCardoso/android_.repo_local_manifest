@@ -1,32 +1,20 @@
-Manifest for Android Pie / LineageOS 16
+Manifest for Android Pie / Pixel Experience
 ====================================
-Project Mi5|Gemini / Project Mi5S|Capricorn / Project Mi5S Plus|Natrium / Project Mi Mix|Lithium / Project Mi Note2|Scorpio
-
----
-
-Automatic Way:
-
-script to download manifests, sync repo and build:
-
-    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/lineage-16.0/build.sh
-
-To use:
-
-    source build.sh
+Project Mi5|Gemini / Project Mi5S|Capricorn
 
 ---
 
 Manual Way:
 
-To initialize LineageOS 16 Repo:
+To initialize Pixel Experience Repo:
 
-    repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
+    repo init -u https://github.com/PixelExperience/manifest -b pie
 
 ---
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/lineage-16.0/xiaomi_msm8996_default.xml
+    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/pe-pie/xiaomi_msm8996_default.xml
 
 ---
 
@@ -38,49 +26,20 @@ Sync the repo:
 
 Initialize the environment:
 
-    source build/envsetup.sh
+    . build/envsetup.sh
 
 ---
 
-To build ROM or TWRP for Xiaomi Mi5:
+To build ROM for Xiaomi Mi5:
 
-    brunch gemini
+    lunch aosp_gemini-userdebug
 
-    breakfast gemini
-    make recoveryimage
-
----
-
-To build ROM or TWRP for Xiaomi Mi5S:
-
-    brunch capricorn
-
-    breakfast capricorn
-    make recoveryimage
+    mka bacon -jX
 
 ---
 
-To build ROM or TWRP for Xiaomi Mi5S Plus:
+To build ROM for Xiaomi Mi5S:
 
-    brunch natrium
+    lunch aosp_capricorn-userdebug
 
-    breakfast natrium
-    make recoveryimage
-
----
-
-To build ROM or TWRP for Xiaomi Mi Mix:
-
-    brunch lithium
-
-    breakfast lithium
-    make recoveryimage
-
----
-
-To build ROM or TWRP for Xiaomi Mi Note 2:
-
-    brunch scorpio
-
-    breakfast scorpio
-    make recoveryimage
+    mka bacon -jX
