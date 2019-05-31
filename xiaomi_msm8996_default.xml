@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <remote name="gitlab" fetch="https://gitlab.com/" />
-
   <!-- Devices sources -->
   <!-- Xiaomi msm8996 devices -->
   <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" remote="pixel-devices" revision="pie-capnat" />
   <project path="device/xiaomi/capricorn" name="device_xiaomi_capricorn" remote="pixel-devices" revision="pie" />
   <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" remote="pixel-devices" revision="pie" />
-  <project path="kernel/xiaomi/msm8996" name="Hlcpereira/kernel_xiaomi_msm8996" remote="github" revision="P-KernelX" />
+  <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" remote="github" revision="pe-pie" />
 
   <!-- Vendor -->
   <project path="vendor/xiaomi" name="JonasCardoso/proprietary_vendor_xiaomi" remote="github" revision="pe-pie"/>
@@ -16,6 +14,6 @@
   <!-- Packages -->
   <project path="packages/apps/WallpapersBReel2018" name="packages_apps_WallpapersBReel2018" remote="pixel-gitlab" revision="pie" />
   <project path="packages/apps/ARStickersMod" name="packages_apps_ARStickersMod" remote="pixel-gitlab" revision="pie" />
-  <project path="packages/apps/GoogleCameraMod" name="packages_apps_GoogleCameraMod" remote="pixel-gitlab" revision="pie-beryllium" />
+  <project path="packages/apps/GoogleCameraMod" name="packages_apps_GoogleCameraMod" remote="pixel-gitlab" revision="pie" />
   <project path="packages/apps/Playground" name="packages_apps_Playground" remote="pixel-gitlab" revision="pie" />
 </manifest>
