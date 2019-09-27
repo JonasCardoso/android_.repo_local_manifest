@@ -1,4 +1,4 @@
-Manifest for Android Pie / Pixel Experience
+Manifest for Android Ten / Pixel Experience
 ====================================
 Project Mi5|Gemini / Project Mi5S|Capricorn
 
@@ -8,19 +8,19 @@ Manual Way:
 
 To initialize Pixel Experience Repo:
 
-    repo init -u https://github.com/PixelExperience/manifest -b pie
+    repo init -u https://github.com/PixelExperience/manifest -b ten
 
 ---
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/pe-pie/xiaomi_msm8996_default.xml
+    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/pe-ten/xiaomi_msm8996_default.xml
 
 ---
 
 Sync the repo:
 
-    repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 ---
 

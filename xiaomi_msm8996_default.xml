@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+  <!-- Remote names -->
+  <remote name="gitlab-jonas" fetch="https://gitlab.com/jonascardoso" />
   <!-- Devices sources -->
   <!-- Xiaomi msm8996 devices -->
-  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" remote="pixel-devices" revision="pie-capnat" />
-  <project path="device/xiaomi/capricorn" name="device_xiaomi_capricorn" remote="pixel-devices" revision="pie" />
-  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" remote="pixel-devices" revision="pie" />
-  <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" remote="github" revision="pe-pie" />
+  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" remote="pixel-devices" revision="ten-capnat" />
+  <project path="device/xiaomi/capricorn" name="device_xiaomi_capricorn" remote="pixel-devices" revision="ten" />
+  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" remote="pixel-devices" revision="ten" />
+  <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" remote="github" revision="pe-ten" />
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi" name="JonasCardoso/proprietary_vendor_xiaomi" remote="github" revision="pe-pie"/>
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="gitlab-jonas" revision="pe-ten"/>
 
   <!-- Packages -->
   <project path="packages/apps/WallpapersBReel2018" name="packages_apps_WallpapersBReel2018" remote="pixel-gitlab" revision="pie" />
