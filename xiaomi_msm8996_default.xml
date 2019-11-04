@@ -14,6 +14,4 @@
 
   <!-- Packages -->
   <project path="packages/apps/WallpapersBReel2018" name="packages_apps_WallpapersBReel2018" remote="pixel-gitlab" revision="pie" />
-  <project path="packages/apps/ARStickersMod" name="packages_apps_ARStickersMod" remote="pixel-gitlab" revision="pie" />
-  <project path="packages/apps/Playground" name="packages_apps_Playground" remote="pixel-gitlab" revision="pie" />
 </manifest>
