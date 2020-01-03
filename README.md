@@ -1,6 +1,6 @@
 Manifest for Android Ten / Pixel Experience
 ====================================
-Project Mi5|Gemini / Project Mi5S|Capricorn
+Project Mi5|Gemini / Project Mi5S|Capricorn - 3.18.x
 
 ---
 
@@ -14,7 +14,7 @@ To initialize Pixel Experience Repo:
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/pe-ten/xiaomi_msm8996_default.xml
+    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/ten-3.18.x/xiaomi_msm8996_default.xml
 
 ---
 
@@ -34,7 +34,7 @@ To build ROM for Xiaomi Mi5:
 
     lunch aosp_gemini-userdebug
 
-    mka bacon -jX
+    mka bacon -j$(nproc --all)
 
 ---
 
@@ -42,4 +42,4 @@ To build ROM for Xiaomi Mi5S:
 
     lunch aosp_capricorn-userdebug
 
-    mka bacon -jX
+    mka bacon -j$(nproc --all)
