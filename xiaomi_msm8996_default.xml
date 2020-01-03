@@ -4,19 +4,20 @@
 
   <!-- Remote names -->
   <remote name="gb" fetch="https://github.com/"/>
+  <remote name="gitlab-TheMuppets" fetch="https://gitlab.com/TheMuppets" />
 
   <!-- Devices sources -->
-  <project path="device/xiaomi/natrium" name="LineageOS/android_device_xiaomi_natrium" revision="lineage-16.0" remote="gb"/>
-  <project path="device/xiaomi/capricorn" name="LineageOS/android_device_xiaomi_capricorn" revision="lineage-16.0" remote="gb"/>
-  <project path="device/xiaomi/gemini" name="LineageOS/android_device_xiaomi_gemini" revision="lineage-16.0" remote="gb"/>
-  <project path="device/xiaomi/lithium" name="LineageOS/android_device_xiaomi_lithium" revision="lineage-16.0" remote="gb"/>
-  <project path="device/xiaomi/scorpio" name="LineageOS/android_device_xiaomi_scorpio" revision="lineage-16.0" remote="gb"/>
+  <project path="device/xiaomi/natrium" name="LineageOS/android_device_xiaomi_natrium" revision="lineage-17.1" remote="gb"/>
+  <project path="device/xiaomi/capricorn" name="LineageOS/android_device_xiaomi_capricorn" revision="lineage-17.1" remote="gb"/>
+  <project path="device/xiaomi/gemini" name="LineageOS/android_device_xiaomi_gemini" revision="lineage-17.1" remote="gb"/>
+  <project path="device/xiaomi/lithium" name="LineageOS/android_device_xiaomi_lithium" revision="lineage-17.1" remote="gb"/>
+  <project path="device/xiaomi/scorpio" name="LineageOS/android_device_xiaomi_scorpio" revision="lineage-17.1" remote="gb"/>
 
   <!-- Common Project -->
-  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" revision="lineage-16.0" remote="gb"/>
-  <project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" revision="lineage-16.0" remote="gb"/>
-  <project path="device/xiaomi/msm8996-common" name="LineageOS/android_device_xiaomi_msm8996-common" revision="lineage-16.0" remote="gb"/>
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-16.0" remote="gb"/>
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="lineage-17.1" remote="gitlab-TheMuppets"/>
+  <project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" revision="lineage-17.1" remote="gb"/>
+  <project path="device/xiaomi/msm8996-common" name="LineageOS/android_device_xiaomi_msm8996-common" revision="lineage-17.1" remote="gb"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-17.1" remote="gb"/>
   
   <!-- TWRP -->
   <!--<project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-9.0" remote="gb">-->

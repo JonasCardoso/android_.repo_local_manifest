@@ -2,11 +2,11 @@
 # New Live/Menu by Caio Oliveira aka Caio99BR <caiooliveirafarias0@gmail.com>
 # Support for msm8996 by JonasCardoso aka JonasCardoso <jonascard60@gmail.com>
 # Generic Variables
-_android="9.0.0"
-_android_version="Pie"
+_android="10.0.0"
+_android_version="Q"
 _android_java="8"
-_custom_android="lineage-16.0"
-_custom_android_version="LineageOS-16.0"
+_custom_android="lineage-17.1"
+_custom_android_version="LineageOS-17.1"
 _github_custom_android_place="LineageOS"
 _github_device_place="JonasCardoso"
 # Make loop for usage of 'break' to recursive exit
