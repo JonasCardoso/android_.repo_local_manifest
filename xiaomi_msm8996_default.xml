@@ -13,8 +13,9 @@
   <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" remote="github" revision="ten-3.18.x" />
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="github-jonas" revision="ten-3.18.x"/>
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="github-jonas" revision="ten"/>
 
   <!-- Packages -->
   <project path="packages/apps/WallpapersBReel2019" name="packages_apps_WallpapersBReel2019" remote="pixel-gitlab" revision="ten" />
 </manifest>
+
