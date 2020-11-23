@@ -16,6 +16,6 @@
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="github-jonas" revision="ten"/>
 
   <!-- Packages -->
-  <project path="packages/apps/WallpapersBReel2019" name="packages_apps_WallpapersBReel2019" remote="pixel-gitlab" revision="ten" />
+  <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" revision="ten" />
 </manifest>
 

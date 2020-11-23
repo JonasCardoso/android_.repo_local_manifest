@@ -14,7 +14,7 @@ To initialize Pixel Experience Repo:
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/PixelExperience-Xiaomi-MSM8996/android_.repo_local_manifest/ten-3.18.x/xiaomi_msm8996_default.xml
+    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/ten-3.18.x/xiaomi_msm8996_default.xml
 
 ---
 
