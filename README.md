@@ -1,4 +1,4 @@
-Manifest for Android Ten / Pixel Experience
+Manifest for Android Eleven / Pixel Experience
 ====================================
 Project Mi5|Gemini / Project Mi5S|Capricorn / Project Mi5s Plus|Natrium / Project Mi Mix|Lithium / Project Mi Note 2|Scorpio - 3.18.x
 
@@ -8,13 +8,13 @@ Manual Way:
 
 To initialize Pixel Experience Repo:
 
-    repo init -u https://github.com/PixelExperience/manifest -b ten
+    repo init -u https://github.com/PixelExperience/manifest -b eleven
 
 ---
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/PixelExperience-Xiaomi-MSM8996/android_.repo_local_manifest/ten-3.18.x/xiaomi_msm8996_default.xml
+    curl --create-dirs -L -o .repo/local_manifests/xiaomi_msm8996_default.xml -O -L https://raw.github.com/JonasCardoso/android_.repo_local_manifest/eleven/xiaomi_msm8996_default.xml
 
 ---
 

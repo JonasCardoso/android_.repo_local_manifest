@@ -4,18 +4,18 @@
   <remote name="github-jonas" fetch="https://github.com/PixelExperience-Xiaomi-MSM8996" />
   <!-- Devices sources -->
   <!-- Xiaomi msm8996 devices -->
-  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" remote="github-jonas" revision="ten-3.18.x" />
-  <project path="device/xiaomi/capricorn" name="device_xiaomi_capricorn" remote="github-jonas" revision="ten" />
-  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" remote="github-jonas" revision="ten" />
-  <project path="device/xiaomi/natrium" name="device_xiaomi_natrium" remote="github-jonas" revision="ten" />
-  <project path="device/xiaomi/lithium" name="device_xiaomi_lithium" remote="github-jonas" revision="ten" />
-  <project path="device/xiaomi/scorpio" name="device_xiaomi_scorpio" remote="github-jonas" revision="ten" />
-  <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" remote="github" revision="hmp-q" />
+  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" remote="github-jonas" revision="eleven" />
+  <project path="device/xiaomi/capricorn" name="device_xiaomi_capricorn" remote="github-jonas" revision="eleven" />
+  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" remote="github-jonas" revision="eleven" />
+  <project path="device/xiaomi/natrium" name="device_xiaomi_natrium" remote="github-jonas" revision="eleven" />
+  <!-- project path="device/xiaomi/lithium" name="device_xiaomi_lithium" remote="github-jonas" revision="eleven" /-->
+  <project path="device/xiaomi/scorpio" name="device_xiaomi_scorpio" remote="github-jonas" revision="eleven" />
+  <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" remote="github" revision="hmp-r" />
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="github-jonas" revision="ten"/>
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="github-jonas" revision="eleven"/>
 
   <!-- Packages -->
-  <project path="packages/apps/WallpapersBReel2019" name="packages_apps_WallpapersBReel2019" remote="pixel-gitlab" revision="ten" />
+  <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" revision="eleven" />
 </manifest>
 
