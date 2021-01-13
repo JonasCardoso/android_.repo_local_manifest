@@ -7,13 +7,13 @@
   <remote name="gb" fetch="https://github.com/"/>
 
   <!-- Devices sources -->
-  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" revision="lineage-18.0" remote="github-jonas"/>
+  <project path="device/xiaomi/gemini" name="device_xiaomi_gemini" revision="lineage-18.1" remote="github-jonas"/>
 
   <!-- Common Project -->
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="eleven" remote="github-jonas"/>
-  <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" revision="hmp-r" remote="gb"/>
-  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" revision="lineage-18.0" remote="github-jonas"/>
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.0"/>
+  <project path="kernel/xiaomi/msm8996" name="JonasCardoso/android_kernel_xiaomi_msm8996" revision="hmp-q" remote="gb"/>
+  <project path="device/xiaomi/msm8996-common" name="device_xiaomi_msm8996-common" revision="lineage-18.1" remote="github-jonas"/>
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.1"/>
   
   <!-- TWRP -->
   <!--<project path="bootable/recovery-omni" name="omnirom/android_bootable_recovery" revision="android-9.0" remote="gb">-->
